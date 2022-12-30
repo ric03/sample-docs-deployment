@@ -31,13 +31,14 @@ podSecurityContext: { }
 securityContext: { }
   # capabilities:
   #   drop:
-  #   - ALL
+#   - ALL
 # readOnlyRootFilesystem: true
 # runAsNonRoot: true
 # runAsUser: 1000
 
 service:
-  type: ClusterIP
+  #  type: ClusterIP
+  type: NodePort
   port: 80
 
 ingress:
@@ -63,7 +64,7 @@ resources: { }
   # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
   # limits:
   #   cpu: 100m
-  #   memory: 128Mi
+#   memory: 128Mi
 # requests:
 #   cpu: 100m
 #   memory: 128Mi
