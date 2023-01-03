@@ -1,6 +1,14 @@
 # Simple Docs Deployment
 
-This is the deployment repo for the [sample-docs-app](https://github.com/ric03/sample-docs-app).
+This repo contains the deployment config (Helm Chart) for the
+app [sample-docs-app](https://github.com/ric03/sample-docs-app).
+
+This repo is part of an ArgoCD experiment, see https://github.com/ric03/sample-docs-argocd
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/ric03/sample-docs-argocd/raw/main/docs/component-overview-transparent-darkmode.png">
+  <img alt="Component Overview" src="https://github.com/ric03/sample-docs-argocd/raw/main/docs/component-overview-transparent.png">
+</picture>
 
 # Requirements
 
